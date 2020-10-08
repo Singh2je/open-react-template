@@ -1,15 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
+
 import ReactPlayer from 'react-player';
-
-const propTypes = {
-  ...SectionProps.types
-}
-
-const defaultProps = {
-  ...SectionProps.defaults
-}
 
 const Hero = ({
   className,
@@ -77,7 +69,5 @@ const Hero = ({
   );
 }
 
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
 
 export default Hero;
